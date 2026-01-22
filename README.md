@@ -7,6 +7,7 @@ This Java console application demonstrates fundamental array operations, manual 
 ---
 ## Features Implemented
 1. Single-Dimensional Array Operations
+
     . Accepts user input for array elements
 
     . Calculates: Sum, Average, Maximum, Minimum
@@ -15,17 +16,20 @@ This Java console application demonstrates fundamental array operations, manual 
 
     . Displays formatted results
 
-2. Multi-Dimensional Array Demonstration
+3. Multi-Dimensional Array Demonstration
+
     . Predefined 2D array (matrix) initialization
 
     . Nested loop traversal and display
 
-3. Exception Handling
+5. Exception Handling
+
     . Catches ArrayIndexOutOfBoundsException
 
     . Demonstrates both valid and invalid array access
 
-4. Efficient Loop Usage
+7. Efficient Loop Usage
+
     . Optimized traversal for calculations and sorting
 
     . Clean separation of concerns in logic
@@ -34,9 +38,9 @@ This Java console application demonstrates fundamental array operations, manual 
 ## How to Run
 **Prerequisites**
    
-. Java JDK 8 or higher
+    . Java JDK 8 or higher
 
-. Terminal or Command Prompt
+    . Terminal or Command Prompt
 
 **Compilation & Execution**
 ```
