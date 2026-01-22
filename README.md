@@ -33,9 +33,10 @@ This Java console application demonstrates fundamental array operations, manual 
 ---
 ## How to Run
 **Prerequisites**
-    . Java JDK 8 or higher
+   
+. Java JDK 8 or higher
 
-    . Terminal or Command Prompt
+. Terminal or Command Prompt
 
 **Compilation & Execution**
 ```
@@ -64,15 +65,6 @@ Sorted Array: 1 2 4 5 7
 
 Accessing invalid index:
 Exception caught: Array index out of bounds
-```
-
----
-## File Structure
-```
-task5/
-├── Array.java          # Main application code
-├── README.md           # This documentation
-└── task5.pdf           # Original task specification
 ```
 
 ---
