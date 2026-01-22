@@ -4,44 +4,48 @@
 
 This Java console application demonstrates fundamental array operations, manual sorting, multi-dimensional array handling, and exception management. It fulfills all requirements outlined in the task specification, including data analysis, manual sorting without built-in methods, and proper error handling.
 
+---
 ## Features Implemented
 1. Single-Dimensional Array Operations
-. Accepts user input for array elements
+    . Accepts user input for array elements
 
-. Calculates: Sum, Average, Maximum, Minimum
+    . Calculates: Sum, Average, Maximum, Minimum
 
-. Implements manual Bubble Sort (no built-in methods)
+    . Implements manual Bubble Sort (no built-in methods)
 
-. Displays formatted results
+    . Displays formatted results
 
 2. Multi-Dimensional Array Demonstration
-. Predefined 2D array (matrix) initialization
+    . Predefined 2D array (matrix) initialization
 
-. Nested loop traversal and display
+    . Nested loop traversal and display
 
 3. Exception Handling
-. Catches ArrayIndexOutOfBoundsException
+    . Catches ArrayIndexOutOfBoundsException
 
-. Demonstrates both valid and invalid array access
+    . Demonstrates both valid and invalid array access
 
 4. Efficient Loop Usage
-. Optimized traversal for calculations and sorting
+    . Optimized traversal for calculations and sorting
 
-. Clean separation of concerns in logic
+    . Clean separation of concerns in logic
 
+---
 ## How to Run
 **Prerequisites**
-. Java JDK 8 or higher
+    . Java JDK 8 or higher
 
-. Terminal or Command Prompt
+    . Terminal or Command Prompt
 
 **Compilation & Execution**
-bash
+```
 javac Array.java
 java Array
+```
 
+---
 ## Sample Output
-text
+```
 Enter number of elements: 
 5
 Enter elements: 
@@ -60,14 +64,18 @@ Sorted Array: 1 2 4 5 7
 
 Accessing invalid index:
 Exception caught: Array index out of bounds
+```
 
+---
 ## File Structure
-text
+```
 task5/
 ├── Array.java          # Main application code
 ├── README.md           # This documentation
 └── task5.pdf           # Original task specification
+```
 
+---
 ## Technical Highlights:
 . Manual sorting algorithm (Bubble Sort)
 
@@ -77,6 +85,7 @@ task5/
 
 . Formatted console output
 
+---
 ## Notes
 . The program uses only core Java libraries
 
